@@ -1,0 +1,107 @@
+\.game-container {
+    width: 400px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #f0f0f0; /* added background color */
+  }
+  
+  .grid-container {
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-cell {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease; /* added transition effect */
+  }
+  
+  .grid-cell:hover {
+    background-color: #ddd; /* added hover effect */
+  }
+  
+  .grid-cell:nth-child(1) {
+    background-color: #ff69b4; /* added color to first box */
+  }
+  
+  .grid-cell:nth-child(2) {
+    background-color: #ffa07a; /* added color to second box */
+  }
+  
+  .grid-cell:nth-child(3) {
+    background-color: #ffff00; /* added color to third box */
+  }
+  
+  .grid-cell:nth-child(4) {
+    background-color: #008000; /* added color to fourth box */
+  }
+  
+  .grid-cell:nth-child(5) {
+    background-color: #0000ff; /* added color to fifth box */
+  }
+  
+  .grid-cell:nth-child(6) {
+    background-color: #800080; /* added color to sixth box */
+  }
+  
+  .grid-cell:nth-child(7) {
+    background-color: #ff0000; /* added color to seventh box */
+  }
+  
+  .grid-cell:nth-child(8) {
+    background-color: #808000; /* added color to eighth box */
+  }
+  
+  .grid-cell:nth-child(9) {
+    background-color: #008080; /* added color to ninth box */
+  }
+  
+  .grid-cell:nth-child(10) {
+    background-color: #800000; /* added color to tenth box */
+  }
+  
+  .grid-cell:nth-child(11) {
+    background-color: #00ff00; /* added color to eleventh box */
+  }
+  
+  .grid-cell:nth-child(12) {
+    background-color: #000080; /* added color to twelfth box */
+  }
+  
+  .grid-cell:nth-child(13) {
+    background-color: #ff00ff; /* added color to thirteenth box */
+  }
+  
+  .grid-cell:nth-child(14) {
+    background-color: #008000; /* added color to fourteenth box */
+  }
+  
+  .grid-cell:nth-child(15) {
+    background-color: #0000ff; /* added color to fifteenth box */
+  }
+  
+  .grid-cell:nth-child(16) {
+    background-color: #ff69b4; /* added color to sixteenth box */
+  }
+  
+  .score-container {
+    margin-top: 20px;
+  }
+  
+  .score-container p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* added text color */
+  }
